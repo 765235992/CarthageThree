@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEE938791F06B0DF00EF954F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE938781F06B0DF00EF954F /* main.m */; };
+		FEE9387C1F06B0DF00EF954F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE9387B1F06B0DF00EF954F /* AppDelegate.m */; };
+		FEE9387F1F06B0DF00EF954F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE9387E1F06B0DF00EF954F /* ViewController.m */; };
+		FEE938821F06B0DF00EF954F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE938801F06B0DF00EF954F /* Main.storyboard */; };
+		FEE938841F06B0DF00EF954F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEE938831F06B0DF00EF954F /* Assets.xcassets */; };
+		FEE938871F06B0DF00EF954F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE938851F06B0DF00EF954F /* LaunchScreen.storyboard */; };
+		FEE938921F06B0DF00EF954F /* CarthageThreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE938911F06B0DF00EF954F /* CarthageThreeTests.m */; };
+		FEE9389D1F06B0DF00EF954F /* CarthageThreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE9389C1F06B0DF00EF954F /* CarthageThreeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEE9388E1F06B0DF00EF954F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEE9386C1F06B0DF00EF954F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE938731F06B0DF00EF954F;
+			remoteInfo = CarthageThree;
+		};
+		FEE938991F06B0DF00EF954F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEE9386C1F06B0DF00EF954F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEE938731F06B0DF00EF954F;
+			remoteInfo = CarthageThree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEE938741F06B0DF00EF954F /* CarthageThree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageThree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE938781F06B0DF00EF954F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEE9387A1F06B0DF00EF954F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEE9387B1F06B0DF00EF954F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEE9387D1F06B0DF00EF954F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEE9387E1F06B0DF00EF954F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEE938811F06B0DF00EF954F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEE938831F06B0DF00EF954F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEE938861F06B0DF00EF954F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEE938881F06B0DF00EF954F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE9388D1F06B0DF00EF954F /* CarthageThreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageThreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE938911F06B0DF00EF954F /* CarthageThreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarthageThreeTests.m; sourceTree = "<group>"; };
+		FEE938931F06B0DF00EF954F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE938981F06B0DF00EF954F /* CarthageThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE9389C1F06B0DF00EF954F /* CarthageThreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarthageThreeUITests.m; sourceTree = "<group>"; };
+		FEE9389E1F06B0DF00EF954F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEE938711F06B0DF00EF954F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE9388A1F06B0DF00EF954F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE938951F06B0DF00EF954F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEE9386B1F06B0DF00EF954F = {
+			isa = PBXGroup;
+			children = (
+				FEE938761F06B0DF00EF954F /* CarthageThree */,
+				FEE938901F06B0DF00EF954F /* CarthageThreeTests */,
+				FEE9389B1F06B0DF00EF954F /* CarthageThreeUITests */,
+				FEE938751F06B0DF00EF954F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEE938751F06B0DF00EF954F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEE938741F06B0DF00EF954F /* CarthageThree.app */,
+				FEE9388D1F06B0DF00EF954F /* CarthageThreeTests.xctest */,
+				FEE938981F06B0DF00EF954F /* CarthageThreeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEE938761F06B0DF00EF954F /* CarthageThree */ = {
+			isa = PBXGroup;
+			children = (
+				FEE9387A1F06B0DF00EF954F /* AppDelegate.h */,
+				FEE9387B1F06B0DF00EF954F /* AppDelegate.m */,
+				FEE9387D1F06B0DF00EF954F /* ViewController.h */,
+				FEE9387E1F06B0DF00EF954F /* ViewController.m */,
+				FEE938801F06B0DF00EF954F /* Main.storyboard */,
+				FEE938831F06B0DF00EF954F /* Assets.xcassets */,
+				FEE938851F06B0DF00EF954F /* LaunchScreen.storyboard */,
+				FEE938881F06B0DF00EF954F /* Info.plist */,
+				FEE938771F06B0DF00EF954F /* Supporting Files */,
+			);
+			path = CarthageThree;
+			sourceTree = "<group>";
+		};
+		FEE938771F06B0DF00EF954F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEE938781F06B0DF00EF954F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEE938901F06B0DF00EF954F /* CarthageThreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEE938911F06B0DF00EF954F /* CarthageThreeTests.m */,
+				FEE938931F06B0DF00EF954F /* Info.plist */,
+			);
+			path = CarthageThreeTests;
+			sourceTree = "<group>";
+		};
+		FEE9389B1F06B0DF00EF954F /* CarthageThreeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEE9389C1F06B0DF00EF954F /* CarthageThreeUITests.m */,
+				FEE9389E1F06B0DF00EF954F /* Info.plist */,
+			);
+			path = CarthageThreeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEE938731F06B0DF00EF954F /* CarthageThree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE938A11F06B0DF00EF954F /* Build configuration list for PBXNativeTarget "CarthageThree" */;
+			buildPhases = (
+				FEE938701F06B0DF00EF954F /* Sources */,
+				FEE938711F06B0DF00EF954F /* Frameworks */,
+				FEE938721F06B0DF00EF954F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarthageThree;
+			productName = CarthageThree;
+			productReference = FEE938741F06B0DF00EF954F /* CarthageThree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEE9388C1F06B0DF00EF954F /* CarthageThreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE938A41F06B0DF00EF954F /* Build configuration list for PBXNativeTarget "CarthageThreeTests" */;
+			buildPhases = (
+				FEE938891F06B0DF00EF954F /* Sources */,
+				FEE9388A1F06B0DF00EF954F /* Frameworks */,
+				FEE9388B1F06B0DF00EF954F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEE9388F1F06B0DF00EF954F /* PBXTargetDependency */,
+			);
+			name = CarthageThreeTests;
+			productName = CarthageThreeTests;
+			productReference = FEE9388D1F06B0DF00EF954F /* CarthageThreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEE938971F06B0DF00EF954F /* CarthageThreeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEE938A71F06B0DF00EF954F /* Build configuration list for PBXNativeTarget "CarthageThreeUITests" */;
+			buildPhases = (
+				FEE938941F06B0DF00EF954F /* Sources */,
+				FEE938951F06B0DF00EF954F /* Frameworks */,
+				FEE938961F06B0DF00EF954F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEE9389A1F06B0DF00EF954F /* PBXTargetDependency */,
+			);
+			name = CarthageThreeUITests;
+			productName = CarthageThreeUITests;
+			productReference = FEE938981F06B0DF00EF954F /* CarthageThreeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEE9386C1F06B0DF00EF954F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "河南东京Web俱乐部";
+				TargetAttributes = {
+					FEE938731F06B0DF00EF954F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					FEE9388C1F06B0DF00EF954F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEE938731F06B0DF00EF954F;
+					};
+					FEE938971F06B0DF00EF954F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEE938731F06B0DF00EF954F;
+					};
+				};
+			};
+			buildConfigurationList = FEE9386F1F06B0DF00EF954F /* Build configuration list for PBXProject "CarthageThree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEE9386B1F06B0DF00EF954F;
+			productRefGroup = FEE938751F06B0DF00EF954F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEE938731F06B0DF00EF954F /* CarthageThree */,
+				FEE9388C1F06B0DF00EF954F /* CarthageThreeTests */,
+				FEE938971F06B0DF00EF954F /* CarthageThreeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEE938721F06B0DF00EF954F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE938871F06B0DF00EF954F /* LaunchScreen.storyboard in Resources */,
+				FEE938841F06B0DF00EF954F /* Assets.xcassets in Resources */,
+				FEE938821F06B0DF00EF954F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE9388B1F06B0DF00EF954F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE938961F06B0DF00EF954F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEE938701F06B0DF00EF954F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE9387F1F06B0DF00EF954F /* ViewController.m in Sources */,
+				FEE9387C1F06B0DF00EF954F /* AppDelegate.m in Sources */,
+				FEE938791F06B0DF00EF954F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE938891F06B0DF00EF954F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE938921F06B0DF00EF954F /* CarthageThreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE938941F06B0DF00EF954F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE9389D1F06B0DF00EF954F /* CarthageThreeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEE9388F1F06B0DF00EF954F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEE938731F06B0DF00EF954F /* CarthageThree */;
+			targetProxy = FEE9388E1F06B0DF00EF954F /* PBXContainerItemProxy */;
+		};
+		FEE9389A1F06B0DF00EF954F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEE938731F06B0DF00EF954F /* CarthageThree */;
+			targetProxy = FEE938991F06B0DF00EF954F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEE938801F06B0DF00EF954F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE938811F06B0DF00EF954F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEE938851F06B0DF00EF954F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEE938861F06B0DF00EF954F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEE9389F1F06B0DF00EF954F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEE938A01F06B0DF00EF954F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEE938A21F06B0DF00EF954F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarthageThree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.CarthageThree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEE938A31F06B0DF00EF954F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarthageThree/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.CarthageThree;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEE938A51F06B0DF00EF954F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarthageThreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.CarthageThreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageThree.app/CarthageThree";
+			};
+			name = Debug;
+		};
+		FEE938A61F06B0DF00EF954F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarthageThreeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.CarthageThreeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarthageThree.app/CarthageThree";
+			};
+			name = Release;
+		};
+		FEE938A81F06B0DF00EF954F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarthageThreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.CarthageThreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarthageThree;
+			};
+			name = Debug;
+		};
+		FEE938A91F06B0DF00EF954F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarthageThreeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DJWebClub.CarthageThreeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarthageThree;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEE9386F1F06B0DF00EF954F /* Build configuration list for PBXProject "CarthageThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE9389F1F06B0DF00EF954F /* Debug */,
+				FEE938A01F06B0DF00EF954F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEE938A11F06B0DF00EF954F /* Build configuration list for PBXNativeTarget "CarthageThree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE938A21F06B0DF00EF954F /* Debug */,
+				FEE938A31F06B0DF00EF954F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEE938A41F06B0DF00EF954F /* Build configuration list for PBXNativeTarget "CarthageThreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE938A51F06B0DF00EF954F /* Debug */,
+				FEE938A61F06B0DF00EF954F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEE938A71F06B0DF00EF954F /* Build configuration list for PBXNativeTarget "CarthageThreeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEE938A81F06B0DF00EF954F /* Debug */,
+				FEE938A91F06B0DF00EF954F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEE9386C1F06B0DF00EF954F /* Project object */;
+}
