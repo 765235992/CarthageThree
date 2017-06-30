@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FEE938731F06B0DF00EF954F"
+               BlueprintIdentifier = "FE97B3C11F06B18300DEF3F5"
                BuildableName = "CarthageThree.app"
                BlueprintName = "CarthageThree"
                ReferencedContainer = "container:CarthageThree.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FEE9388C1F06B0DF00EF954F"
+               BlueprintIdentifier = "FE97B3DA1F06B18300DEF3F5"
                BuildableName = "CarthageThreeTests.xctest"
                BlueprintName = "CarthageThreeTests"
                ReferencedContainer = "container:CarthageThree.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FEE938971F06B0DF00EF954F"
+               BlueprintIdentifier = "FE97B3E51F06B18300DEF3F5"
                BuildableName = "CarthageThreeUITests.xctest"
                BlueprintName = "CarthageThreeUITests"
                ReferencedContainer = "container:CarthageThree.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FEE938731F06B0DF00EF954F"
+            BlueprintIdentifier = "FE97B3C11F06B18300DEF3F5"
             BuildableName = "CarthageThree.app"
             BlueprintName = "CarthageThree"
             ReferencedContainer = "container:CarthageThree.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FEE938731F06B0DF00EF954F"
+            BlueprintIdentifier = "FE97B3C11F06B18300DEF3F5"
             BuildableName = "CarthageThree.app"
             BlueprintName = "CarthageThree"
             ReferencedContainer = "container:CarthageThree.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "FEE938731F06B0DF00EF954F"
+            BlueprintIdentifier = "FE97B3C11F06B18300DEF3F5"
             BuildableName = "CarthageThree.app"
             BlueprintName = "CarthageThree"
             ReferencedContainer = "container:CarthageThree.xcodeproj">
