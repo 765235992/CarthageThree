@@ -15,12 +15,12 @@
 		FE97B3D51F06B18300DEF3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE97B3D31F06B18300DEF3F5 /* LaunchScreen.storyboard */; };
 		FE97B3E01F06B18300DEF3F5 /* CarthageThreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE97B3DF1F06B18300DEF3F5 /* CarthageThreeTests.m */; };
 		FE97B3EB1F06B18300DEF3F5 /* CarthageThreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE97B3EA1F06B18300DEF3F5 /* CarthageThreeUITests.m */; };
-		FE97B3FC1F06B22A00DEF3F5 /* DJPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = FE97B3FB1F06B22A00DEF3F5 /* DJPeople.m */; };
 		FE97B40B1F06B25800DEF3F5 /* MyCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE97B4021F06B25800DEF3F5 /* MyCarthage.framework */; };
 		FE97B4121F06B25800DEF3F5 /* MyCarthageFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE97B4111F06B25800DEF3F5 /* MyCarthageFrameworkTests.m */; };
 		FE97B4141F06B25800DEF3F5 /* MyCarthageFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FE97B4041F06B25800DEF3F5 /* MyCarthageFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE97B4171F06B25800DEF3F5 /* MyCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE97B4021F06B25800DEF3F5 /* MyCarthage.framework */; };
 		FE97B4181F06B25800DEF3F5 /* MyCarthage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE97B4021F06B25800DEF3F5 /* MyCarthage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FE97B4241F06B30200DEF3F5 /* DJPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = FE97B4221F06B30200DEF3F5 /* DJPeople.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,15 +92,15 @@
 		FE97B3E61F06B18300DEF3F5 /* CarthageThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE97B3EA1F06B18300DEF3F5 /* CarthageThreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarthageThreeUITests.m; sourceTree = "<group>"; };
 		FE97B3EC1F06B18300DEF3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE97B3F91F06B21F00DEF3F5 /* MyCarthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCarthage.h; sourceTree = "<group>"; };
-		FE97B3FA1F06B22A00DEF3F5 /* DJPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPeople.h; sourceTree = "<group>"; };
-		FE97B3FB1F06B22A00DEF3F5 /* DJPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPeople.m; sourceTree = "<group>"; };
 		FE97B4021F06B25800DEF3F5 /* MyCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE97B4041F06B25800DEF3F5 /* MyCarthageFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCarthageFramework.h; sourceTree = "<group>"; };
 		FE97B4051F06B25800DEF3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE97B40A1F06B25800DEF3F5 /* MyCarthageFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCarthageFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE97B4111F06B25800DEF3F5 /* MyCarthageFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCarthageFrameworkTests.m; sourceTree = "<group>"; };
 		FE97B4131F06B25800DEF3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE97B4211F06B30200DEF3F5 /* DJPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJPeople.h; sourceTree = "<group>"; };
+		FE97B4221F06B30200DEF3F5 /* DJPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJPeople.m; sourceTree = "<group>"; };
+		FE97B4231F06B30200DEF3F5 /* MyCarthage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCarthage.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +147,7 @@
 		FE97B3B91F06B18200DEF3F5 = {
 			isa = PBXGroup;
 			children = (
+				FE97B4201F06B30200DEF3F5 /* MyCarthage */,
 				FE97B3C41F06B18300DEF3F5 /* CarthageThree */,
 				FE97B3DE1F06B18300DEF3F5 /* CarthageThreeTests */,
 				FE97B3E91F06B18300DEF3F5 /* CarthageThreeUITests */,
@@ -171,7 +172,6 @@
 		FE97B3C41F06B18300DEF3F5 /* CarthageThree */ = {
 			isa = PBXGroup;
 			children = (
-				FE97B3F81F06B21300DEF3F5 /* MyCarthage */,
 				FE97B3C81F06B18300DEF3F5 /* AppDelegate.h */,
 				FE97B3C91F06B18300DEF3F5 /* AppDelegate.m */,
 				FE97B3CB1F06B18300DEF3F5 /* ViewController.h */,
@@ -211,16 +211,6 @@
 			path = CarthageThreeUITests;
 			sourceTree = "<group>";
 		};
-		FE97B3F81F06B21300DEF3F5 /* MyCarthage */ = {
-			isa = PBXGroup;
-			children = (
-				FE97B3F91F06B21F00DEF3F5 /* MyCarthage.h */,
-				FE97B3FA1F06B22A00DEF3F5 /* DJPeople.h */,
-				FE97B3FB1F06B22A00DEF3F5 /* DJPeople.m */,
-			);
-			path = MyCarthage;
-			sourceTree = "<group>";
-		};
 		FE97B4031F06B25800DEF3F5 /* MyCarthageFramework */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +227,16 @@
 				FE97B4131F06B25800DEF3F5 /* Info.plist */,
 			);
 			path = MyCarthageFrameworkTests;
+			sourceTree = "<group>";
+		};
+		FE97B4201F06B30200DEF3F5 /* MyCarthage */ = {
+			isa = PBXGroup;
+			children = (
+				FE97B4211F06B30200DEF3F5 /* DJPeople.h */,
+				FE97B4221F06B30200DEF3F5 /* DJPeople.m */,
+				FE97B4231F06B30200DEF3F5 /* MyCarthage.h */,
+			);
+			path = MyCarthage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,7 +447,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE97B3FC1F06B22A00DEF3F5 /* DJPeople.m in Sources */,
+				FE97B4241F06B30200DEF3F5 /* DJPeople.m in Sources */,
 				FE97B3CD1F06B18300DEF3F5 /* ViewController.m in Sources */,
 				FE97B3CA1F06B18300DEF3F5 /* AppDelegate.m in Sources */,
 				FE97B3C71F06B18300DEF3F5 /* main.m in Sources */,
