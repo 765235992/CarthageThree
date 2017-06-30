@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FE97B4011F06B25800DEF3F5"
-               BuildableName = "MyCarthageFramework.framework"
+               BuildableName = "MyCarthage.framework"
                BlueprintName = "MyCarthageFramework"
                ReferencedContainer = "container:CarthageThree.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FE97B4011F06B25800DEF3F5"
-            BuildableName = "MyCarthageFramework.framework"
+            BuildableName = "MyCarthage.framework"
             BlueprintName = "MyCarthageFramework"
             ReferencedContainer = "container:CarthageThree.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FE97B4011F06B25800DEF3F5"
-            BuildableName = "MyCarthageFramework.framework"
+            BuildableName = "MyCarthage.framework"
             BlueprintName = "MyCarthageFramework"
             ReferencedContainer = "container:CarthageThree.xcodeproj">
          </BuildableReference>

@@ -17,10 +17,12 @@
 		FE97B3EB1F06B18300DEF3F5 /* CarthageThreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE97B3EA1F06B18300DEF3F5 /* CarthageThreeUITests.m */; };
 		FE97B40B1F06B25800DEF3F5 /* MyCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE97B4021F06B25800DEF3F5 /* MyCarthage.framework */; };
 		FE97B4121F06B25800DEF3F5 /* MyCarthageFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE97B4111F06B25800DEF3F5 /* MyCarthageFrameworkTests.m */; };
-		FE97B4141F06B25800DEF3F5 /* MyCarthageFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FE97B4041F06B25800DEF3F5 /* MyCarthageFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE97B4171F06B25800DEF3F5 /* MyCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE97B4021F06B25800DEF3F5 /* MyCarthage.framework */; };
 		FE97B4181F06B25800DEF3F5 /* MyCarthage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FE97B4021F06B25800DEF3F5 /* MyCarthage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FE97B4241F06B30200DEF3F5 /* DJPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = FE97B4221F06B30200DEF3F5 /* DJPeople.m */; };
+		FE97B4681F06B4AC00DEF3F5 /* DJPeople.h in Headers */ = {isa = PBXBuildFile; fileRef = FE97B4211F06B30200DEF3F5 /* DJPeople.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE97B4691F06B4B000DEF3F5 /* MyCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = FE97B4231F06B30200DEF3F5 /* MyCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE97B46A1F06B4B400DEF3F5 /* DJPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = FE97B4221F06B30200DEF3F5 /* DJPeople.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,7 +95,6 @@
 		FE97B3EA1F06B18300DEF3F5 /* CarthageThreeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarthageThreeUITests.m; sourceTree = "<group>"; };
 		FE97B3EC1F06B18300DEF3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE97B4021F06B25800DEF3F5 /* MyCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE97B4041F06B25800DEF3F5 /* MyCarthageFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCarthageFramework.h; sourceTree = "<group>"; };
 		FE97B4051F06B25800DEF3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE97B40A1F06B25800DEF3F5 /* MyCarthageFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCarthageFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE97B4111F06B25800DEF3F5 /* MyCarthageFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCarthageFrameworkTests.m; sourceTree = "<group>"; };
@@ -214,7 +215,6 @@
 		FE97B4031F06B25800DEF3F5 /* MyCarthageFramework */ = {
 			isa = PBXGroup;
 			children = (
-				FE97B4041F06B25800DEF3F5 /* MyCarthageFramework.h */,
 				FE97B4051F06B25800DEF3F5 /* Info.plist */,
 			);
 			path = MyCarthageFramework;
@@ -246,7 +246,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE97B4141F06B25800DEF3F5 /* MyCarthageFramework.h in Headers */,
+				FE97B4681F06B4AC00DEF3F5 /* DJPeople.h in Headers */,
+				FE97B4691F06B4B000DEF3F5 /* MyCarthage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +475,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE97B46A1F06B4B400DEF3F5 /* DJPeople.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -805,6 +807,7 @@
 				FE97B41B1F06B25800DEF3F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE97B41D1F06B25800DEF3F5 /* Build configuration list for PBXNativeTarget "MyCarthageFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -813,6 +816,7 @@
 				FE97B41F1F06B25800DEF3F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
