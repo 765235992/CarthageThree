@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface DJPeople : NSObject
-- (void)eat;
++ (void)eat;
 @end

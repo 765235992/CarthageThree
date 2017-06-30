@@ -9,7 +9,7 @@
 #import "DJPeople.h"
 
 @implementation DJPeople
-- (void)eat
++ (void)eat
 {
     NSLog(@"我爱吃香蕉");
 }
